@@ -15,7 +15,7 @@ To start prediction, run the following comman:<br>
 ```
 python Read_Predict_mnist.py
 ```
-Input the path of images or the model directory according to prompts, and you should see results similar to these:<br>
+Input the path of images or the model directory according to prompts, and you should see results similar to this:<br>
 ```
 New Samples, Class Predictions:    [3]
 ```
