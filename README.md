@@ -3,6 +3,8 @@ Official Tensorflow MNIST program,
 with implementations of Opencv to recognize hand-written digits from your own pictures.
 
 
+
+
 # Installation
 The model performs with:
 1) Tensorflow 1.1.0
