@@ -10,7 +10,7 @@ Both of which you can easily get access to on Anaconda.
 
 
 # Predicting
-A pre-trained model is provided in  `My_mnist_model`  for you to implement recognition directly. The model take as input arbitrary size of your own pictures with hand-written digits, utilizing module tf.estimator to restore check points before.
+A pre-trained model is provided in  `My_mnist_model`  for you to implement recognition directly. The model take as input arbitrary size of your own pictures(e.g. /tmp/number_1.jpg) with hand-written digits, utilizing module tf.estimator to restore check points before.
 To start prediction, run the following comman:<br>
 ```
 python Read_Predict_mnist.py
