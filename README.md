@@ -6,7 +6,7 @@ with implementations of Opencv to recognize hand-written digits from your own pi
 # Installation
 The model performs with:
 * Tensorflow 1.1.0
-* Opencv3. <br>
+* Opencv3.
 Both of which you can easily get access to on Anaconda.
 
 
