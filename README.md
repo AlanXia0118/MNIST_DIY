@@ -11,5 +11,4 @@ Both of which you can easily get access to on Anaconda.
 
 
 # Predicting
-A pre-trained model is provided for in My_mnist_model you to implement recognition directly.
-  this
+A pre-trained model is provided for in 'My_mnist_model' you to implement recognition directly.
