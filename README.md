@@ -20,7 +20,7 @@ Input the path of images or the model directory according to prompts, and you sh
 ```
 New Samples, Class Predictions:    [3]
 ```
-
+Also, there are some test images available in `test_images`.
 
 # Training
 As mentioned above, a pre-trained model is provided for you.<br>
