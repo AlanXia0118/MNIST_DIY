@@ -1,6 +1,5 @@
 # MNIST_DIY
-Official Tensorflow MNIST program, 
-with implementations of Opencv to recognize hand-written digits from your own pictures.
+Official Tensorflow MNIST program, with implementations of Opencv to recognize hand-written digits from your own pictures.
 
 
 # Installation
@@ -22,9 +21,16 @@ New Samples, Class Predictions:    [3]
 ```
 Also, there are some test images available in `test_images`.
 
+
+# Datasets
+You don’t have to prepare dataset yourself. The following line of code in the script `cnn_mnist.py` will load all the labled datasets you need in the process of training, evaluating and predicting:
+```
+mnist = tf.contrib.learn.datasets.load_dataset(“mnist”)
+```
+
 # Training
 As mentioned above, a pre-trained model is provided for you.<br>
-If you would like to develop your own model, just delete all files in the model directory. Codes for setting parameters can be found at the start of the script `cnn_mnist.py`.<br>
+If you would like to develop your own model, just delete all files in the model directory. Codes for setting parameters can be found at the start of the script `cnn_mnist.py`:<br>
 ```
 # Set parameters for training
 train_learning_rate = 0.1
@@ -36,6 +42,8 @@ Then run the command below to start training:
 ```
 python cnn_mnist.py
 ```
+Here, 
+It’s easy for you to train a well-performed model which achieves roughly 98% accuracy within 1500 train_steps, setting train_batch_size to be 50 and train_learning_rate to be 0.1. You may also need to fine-tune the model, since it may slightly suffer from the problem of overfitting by far.
 
-Roughly, it’s easy for you to train a well-performed model which achieves 98% accuracy within 1500 train_steps, setting train_batch_size to be 50 and train_learning_rate to be 0.1. You may also need to fine-tune the model, since it may slightly suffer from the problem of overfitting by far.
 
+# Evaluation
